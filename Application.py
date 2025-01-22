@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 
 
-st.markdown("<h1 style='text-align: center; color: black;'>MY DATA APP</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: black;'>PROJET DE COLLECTE DE DONNEE POUR DC</h2>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;'>CONCEPTEUR : IBRAHIMA KONATE</h1>", unsafe_allow_html=True)
 
 st.markdown("""
 This app allows you to download scraped data on motocycles from expat-dakar 
