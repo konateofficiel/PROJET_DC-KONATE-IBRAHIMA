@@ -1,11 +1,12 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 
 
-st.markdown("<h1 style='text-align: center; color: black;'>MY DATA APP</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: black;'>Application de projet de data collection</h2>", unsafe_allow_html=True)
 
 st.markdown("""
-This app allows you to download scraped data on motocycles from expat-dakar 
+Cette application affiche les données issues du site expa-dakar
 * **Python libraries:** base64, pandas, streamlit
 * **Data source:** [Expat-Dakar](https://www.expat-dakar.com/).
 """)
