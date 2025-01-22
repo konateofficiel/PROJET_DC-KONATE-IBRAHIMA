@@ -33,11 +33,11 @@ st.markdown('''<style> .stButton>button {
 
           
 # Charger les données 
-charge(pd.read_csv('data/motos_scooters1.csv'), 'Motocycles data 1', '1')
-charge(pd.read_csv('data/motos_scooters2.csv'), 'Motocycles data 2', '2')
-charge(pd.read_csv('data/motos_scooters3.csv'), 'Motocycles data 3', '3')
-charge(pd.read_csv('data/motos_scooters4.csv'), 'Motocycles data 4', '4')
-charge(pd.read_csv('data/motos_scooters5.csv'), 'Motocycles data 5', '5')
+charge(pd.read_csv('tables/motos_scooters1.csv'), 'Motocycles data 1', '1')
+charge(pd.read_csv('tables/motos_scooters2.csv'), 'Motocycles data 2', '2')
+charge(pd.read_csv('tables/motos_scooters3.csv'), 'Motocycles data 3', '3')
+charge(pd.read_csv('tables/motos_scooters4.csv'), 'Motocycles data 4', '4')
+charge(pd.read_csv('tables/motos_scooters5.csv'), 'Motocycles data 5', '5')
 
 
 
